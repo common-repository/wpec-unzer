@@ -1,0 +1,41 @@
+/**
+ * TRANSACTION COLORS
+ **/
+.wpec-unzer-capture {
+	color:#85ad74 !important;
+}
+.wpec-unzer-subscribe {
+	color:#85ad74 !important;
+}
+.wpec-unzer-cancel {
+	color:#ad74a2 !important;
+}
+.wpec-unzer-authorize,
+.wpec-unzer-refund {
+	color:#7499ad !important;
+}
+
+/**
+ * TRANSACTION ACTIONS META BOX
+ **/
+#unzer-payment-actions {
+	position:relative;
+    max-width:400px;
+}
+
+#unzer-payment-actions .left {
+	float:left;
+}
+#unzer-payment-actions .right {
+	float:right;
+}
+
+#unzer-payment-actions .loader {
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background: rgba( 255, 255, 255, 0.7 ) url('../img/loader.gif') no-repeat center center;
+    background-size:50%;
+}
